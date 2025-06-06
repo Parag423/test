@@ -1,0 +1,94 @@
+/* responsive , animation , transaction , flex,grid  */
+
+
+/* 
+🔹 rem
+Relative to the root (html) font size
+
+Consistent across the whole page
+
+Good for global sizing
+
+🔹 em
+Relative to the parent's font size
+
+Can compound when nested
+
+Good for scalable components */
+
+
+
+.big{
+    background-color: red;
+    width: 15rem;
+    height: 14rem;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-end;
+}
+
+.small{
+    background-color: green;
+    width: 3rem;
+    height: 3rem;
+    justify-content: end;
+}
+
+/* Animation */
+
+/* 
+.small{
+    animation-name: hello;
+    animation-delay: 50ms;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hello {
+    0%{
+        transform: translateX(-1rem);
+
+    }
+    50%{
+        transform: translateX(0rem);
+        width: 10rem;
+    }
+    100%{
+        transform: translateX(1rem);
+    }
+}
+
+ */
+
+/* Transaction */
+ /* .small:hover{
+   transform: scale(2);
+   transition: ease;
+   transition-duration: 2s;
+ } */
+
+
+/* responsiveness */
+
+/* 
+ @media screen and (max-width: 400px ) {
+    .small{
+        background-color: aqua;
+    }
+ } */
+
+ div{
+    width: 2rem;
+    height: 3rem;
+    background-color: pink;
+ }
+
+ .grid{
+ display: grid;
+ grid-template-columns: 5rem 5rem 5rem;
+ grid-template-rows: auto;
+ grid-gap: 1rem;
+ }
+
